@@ -1,0 +1,38 @@
+<html>
+<head>
+
+	<title>AI Video Object Detector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background1.webp">
+<center>
+<h1 class="btn btn-success heading">AI Video Object Detector</h1>
+<br><br>
+<h3 class="btn btn-success" id="note">Write the name of the Object you Want to Detect IN the Input Box</h3>
+<br><br>
+<h2>Object Name: </h2>
+<input type="text" class="name_of_object" id="object_name">
+
+<br><br>
+<button id="start" class="btn btn-danger" onclick="start()">Start</button>
+<br><br>
+<h3 id="number_of_objects" class="btn btn-warning"></h3>
+<br><br>
+<h3 id="status" class="btn btn-success"></h3>
+</center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
